@@ -1,0 +1,31 @@
+p {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+@media (min-width: 1201px) {
+    body {
+        padding: 80px 24px 0px 261px;
+        font-family: Roboto, Arial;
+        background-color: rgb(245, 245, 245);
+        height: 3000px;
+    }
+}
+
+@media (max-width: 1200px) {
+    body {
+        font-family: Roboto, Arial;
+        padding: 80px 24px 0px 96px;
+        background-color: rgb(245, 245, 245);
+        height: 3000px;
+    }
+}
+
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

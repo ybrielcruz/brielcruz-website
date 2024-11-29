@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>YouTube Clone</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="youtube-styles/general.css">
+        <link rel="stylesheet" href="youtube-styles/video.css">
+        <link rel="stylesheet" href="youtube-styles/header.css">
+        <link rel="stylesheet" href="youtube-styles/sidebar.css">
+
+    </head>
+    <body>
+
+        <div class="sidebar">
+            <a href="https://www.youtube.com" target="_blank">
+                <div class="sidebar-link">
+                    <img src="icons/home.svg">
+                    <div>Home</div>
+                </div>
+            </a>
+            
+            <a href="https://www.youtube.com/shorts/" target="_blank">
+                <div class="sidebar-link">
+                    <img src="icons/explore.svg">
+                    <div>Explore</div>
+                </div>
+            </a>
+            
+            <a href="https://www.youtube.com/feed/subscriptions" target="_blank">
+                <div class="sidebar-link">
+                    <img src="icons/subscriptions.svg">Subscriptions
+                </div>
+            </a>
+
+            <a href="https://www.youtube.com/originals" target="_blank">
+                <div class="sidebar-link">
+                    <img src="icons/originals.svg">Originals
+                </div>
+            </a>
+
+            <a href="https://music.youtube.com" target="_blank">
+                <div class="sidebar-link">
+                    <img src="icons/youtube-music.svg">YouTube Music
+                </div>
+            </a>
+
+            <a href="https://www.youtube.com/feed/you" target="_blank">
+                <div class="sidebar-link">
+                    <img src="icons/library.svg">Library
+                </div>
+            </a>
+        </div>
+
+        <div class="website-header">
+            <div class="left-section">
+                <div class="burger-column">
+                    <button class="burger-button">
+                        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+                    </button>
+                </div>
+                <div>
+                    <img class="youtube-icon" src="icons/youtube-logo.png">
+                </div>
+                
+            </div>
+
+            <div class="middle-section">
+                <div class="search-row">
+                    <input class="search-bar" type="text" placeholder="Search">
+                    <button class="search-button">
+                        <img class="search-icon" src="icons/search.svg">
+                        <div class="tooltip">
+                            Search
+                        </div>
+                    </button>
+                    <button class="voice-button">
+                        <img class="voice-search" src="icons/voice-search-icon.svg">
+                        <div class="tooltip">
+                            Search with your voice
+                        </div>
+                    </button>
+            
+                </div>
+                
+            </div>
+            <div class="right-section">
+                <button class="upload-button">
+                    <img class="upload-icon" src="icons/upload.svg">
+                    <div class="tooltip">
+                        Create
+                    </div>
+                </button>
+
+                <button class="apps-button">
+                    <img class="apps-icon" src="icons/youtube-apps.svg">
+                    <div class="tooltip">
+                        YouTube Apps
+                    </div>
+                </button>
+
+                <button class="notif-button">
+                    <img class="notif-icon" src="icons/notifications.svg">
+                    <div class="tooltip">
+                        Notifications
+                    </div>
+                    <div class="notification-count">
+                        9
+                    </div>
+                </button>
+                
+                <button class="user-button">
+                    <img class="user-icon" src="icons/nikole.png">
+                </button>
+            </div>
+        </div>
+
+        
+        <div class="video-grid">
+            <div class="div-videopreview">
+                    <div class="video-thumbnail">
+                        <a href="https://www.youtube.com/watch?v=CM7AHT85Wd8&t=11s" target="_blank">
+                            <img class="thumbnail" src="thumbnails/motobob.avif">
+                        </a>
+                        <div class="absolute">
+                            23:57
+                        </div>
+                    </div>
+                
+                <div class="video-infogrid">
+        
+                    <div class="div-authorprofile">
+                        <a href="https://www.youtube.com/@motobob" target="_blank">
+                            <img class="author-profilepicture" src="thumbnails/motobob-icon.jpg">
+                        </a>
+                        
+                        <div class="author-subinfo">
+                            <div class="subinfo-picture-row">
+                                <img class="subinfo-picture" src="thumbnails/motobob-icon.jpg">
+                            </div>
+                            <div class="subinfo-stats">
+                                <p class="subinfo-authorname">MOTOBOB</p>
+                                <p class="subinfo-subscribers">342K subscribers</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="div-videodescription">
+                        <a href="https://www.youtube.com/watch?v=CM7AHT85Wd8&t=11s" target="_blank">
+                            <p class="video-title">
+                                The Best New 2025 Motorcycle By Manufacturer From EICMA!
+                            </p>
+                        </a>
+                        <a href="https://www.youtube.com/@motobob" target="_blank">
+                            <p class="video-author">
+                                MOTOBOB &#10003;
+                            </p>
+                        </a>
+                        <p class="video-stats">
+                            159K views &#183; 4 days ago
+                        </p>
+                    </div>
+                </div> 
+            </div>
+            
+            <div class="div-videopreview">
+                <div class="video-thumbnail">
+                    <a href="https://www.youtube.com/watch?v=c7OQl8L4HIk" target="_blank">
+                        <img class="thumbnail" src="thumbnails/jao-moto.avif">
+                    </a>
+                    <div class="absolute">
+                        20:43
+                    </div>
+                </div>
+    
+                <div class="video-infogrid">
+        
+                    <div class="div-authorprofile">
+                        <a href="https://www.youtube.com/@jaomoto" target="_blank">
+                            <img class="author-profilepicture" src="thumbnails/jaomoto-icon.jpg">
+                        </a>
+                        <div class="author-subinfo">
+                            <div class="subinfo-picture-row">
+                                <img class="subinfo-picture" src="thumbnails/jaomoto-icon.jpg">
+                            </div>
+                            <div class="subinfo-stats">
+                                <p class="subinfo-authorname">Jao Moto</p>
+                                <p class="subinfo-subscribers">377K subscribers</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="div-videodescription">
+                        <a href="https://www.youtube.com/watch?v=c7OQl8L4HIk" target="_blank">
+                            <p class="video-title">
+                                Kinarera Ako ng Honda CBR1000RR-R SP!
+                            </p>
+                        </a>
+                        <a href="https://www.youtube.com/@jaomoto" target="_blank">
+                            <p class="video-author">
+                                Jao Moto &#10003;
+                            </p>
+                        </a>
+                        <p class="video-stats">
+                            2K views &#183; 2 hours ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="div-videopreview">
+    
+                <div class="video-thumbnail">
+                    <a href="https://www.youtube.com/watch?v=lpO2lzF-KhU" target="_blank">
+                        <img class="thumbnail" src="thumbnails/s1krocket.avif">
+                    </a>
+                    <div class="absolute">
+                        26:51
+                    </div>
+                </div>
+        
+                <div class="video-infogrid">
+        
+                    <div class="div-authorprofile">
+                        <a href="https://www.youtube.com/@s1krocket" target="_blank">
+                            <img class="author-profilepicture" src="thumbnails/s1krocket-icon.jpg">
+                        </a>
+                        <div class="author-subinfo">
+                            <div class="subinfo-picture-row">
+                                <img class="subinfo-picture" src="thumbnails/s1krocket-icon.jpg">
+                            </div>
+                            <div class="subinfo-stats">
+                                <p class="subinfo-authorname">
+                                    s1krocket
+                                </p>
+                                <p class="subinfo-subscribers">
+                                    175K subscribers
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="div-videodescription">
+                        <a href="https://www.youtube.com/watch?v=lpO2lzF-KhU" target="_blank">
+                            <p class="video-title">
+                                I TOOK MY $30,000 RACE BIKE TO THE TRACK
+                            </p>
+                        </a>
+                        <a href="https://www.youtube.com/@s1krocket" target="_blank">
+                            <p class="video-author">
+                                s1krocket &#10003;
+                            </p>
+                        </a>
+                        <p class="video-stats">
+                            7K views &#183; 11 hours ago
+                        </p>
+                    </div>
+                </div> 
+            </div>
+            
+        
+        
+            <div class="div-videopreview">
+    
+                <div class="video-thumbnail">
+                    <a href="https://www.youtube.com/watch?v=pwCYGd-ZY6k" target="_blank">
+                        <img class="thumbnail" src="thumbnails/adobomoto.jpg">
+                    </a>
+                    <div class="absolute">
+                        22:21
+                    </div>
+                </div>
+        
+                <div class="video-infogrid">
+        
+                    <div class="div-authorprofile">
+                        <a href="https://www.youtube.com/@adobomoto" target="_blank">
+                            <img class="author-profilepicture" src="thumbnails/adobomoto-icon.jpg">
+                        </a>
+                        <div class="author-subinfo">
+                            <div class="subinfo-picture-row">
+                                <img class="subinfo-picture" src="thumbnails/adobomoto-icon.jpg">
+                            </div>
+                            <div class="subinfo-stats">
+                                <p class="subinfo-authorname">Adobo Moto</p>
+                                <p class="subinfo-subscribers">494K subscribers</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="div-videodescription">
+                        <a href="https://www.youtube.com/watch?v=pwCYGd-ZY6k" target="_blank">
+                            <p class="video-title">
+                                A 1000CC SPORT BIKE WILL KILL YOU!
+                            </p>
+                        </a>
+                        <a href="https://www.youtube.com/@adobomoto" target="_blank">
+                            <p class="video-author">
+                                Adobo Moto &#10003;
+                            </p>
+                        </a>
+                        <p class="video-stats">
+                            76K views &#183; 1 year ago
+                        </p>
+                    </div>
+                </div> 
+            </div>
+            
+
+            
+                <div class="div-videopreview">
+        
+                    <div class="video-thumbnail">
+                        <a href="https://www.youtube.com/watch?v=oabnlvECHUY" target="_blank">
+                            <img class="thumbnail" src="thumbnails/imkay.jpg">
+                        </a>
+                        <div class="absolute">
+                            17:31
+                        </div>
+                    </div>
+        
+                    <div class="video-infogrid">
+        
+                        <div class="div-authorprofile">
+                            <a href="https://www.youtube.com/@imkay" target="_blank">
+                                <img class="author-profilepicture" src="thumbnails/imkay-icon.jpg">
+                            </a>
+                            <div class="author-subinfo">
+                                <div class="subinfo-picture-row">
+                                    <img class="subinfo-picture" src="thumbnails/imkay-icon.jpg">
+                                </div>
+                                <div class="subinfo-stats">
+                                    <p class="subinfo-authorname">imKay</p>
+                                    <p class="subinfo-subscribers">1.19M subscribers</p>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="div-videodescription">
+                            <a href="https://www.youtube.com/watch?v=oabnlvECHUY" target="_blank">
+                                <p class="video-title">
+                                    Cops Did NOT Like Us Superbikes
+                                </p>
+                            </a>
+                            <a href="https://www.youtube.com/@imkay" target="_blank">
+                                <p class="video-author">
+                                    imKay &#10003;
+                                </p>
+                            </a>
+                            <p class="video-stats">
+                                84K views &#183; 3 weeks ago
+                            </p>
+                        </div>
+                    </div> 
+                </div>
+            </a>
+        
+            <a href="https://www.youtube.com/watch?v=JJ_MoPRSidQ" target="_blank">
+                <div class="div-videopreview">
+        
+                    <div class="video-thumbnail">
+                        <img class="thumbnail" src="thumbnails/fastlaned.jpg">
+                        <div class="absolute">
+                            25:40
+                        </div>
+                    </div>
+        
+                    <div class="video-infogrid">
+        
+                        <div class="div-authorprofile">
+                            <img class="author-profilepicture" src="thumbnails/fastlaned-icon.jpg">
+
+                            <div class="author-subinfo">
+                                <div class="subinfo-picture-row">
+                                    <img class="subinfo-picture" src="thumbnails/fastlaned-icon.jpg">
+                                </div>
+                                <div class="subinfo-stats">
+                                    <p class="subinfo-authorname">FastLaneD</p>
+                                    <p class="subinfo-subscribers">892K subscribers</p>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="div-videodescription">
+                            <p class="video-title">
+                                BMW M1000RR HONEST LONG TERM REVIEW
+                            </p>
+                            <p class="video-author">
+                                FastLaneD &#10003;
+                            </p>
+                            <p class="video-stats">
+                                67K views &#183; 1 month ago
+                            </p>
+                        </div>
+                    </div> 
+                </div>
+            </a>
+        
+            <a href="https://www.youtube.com/watch?v=c9DvUbl-wXo&t=43s" target="_blank">
+                <div class="div-videopreview">
+        
+                    <div class="video-thumbnail">
+                        <img class="thumbnail" src="thumbnails/watermelon.jpg">
+                        <div class="absolute">
+                            46:42
+                        </div>
+                    </div>
+        
+                    <div class="video-infogrid">
+        
+                        <div class="div-authorprofile">
+                            <img class="author-profilepicture" src="thumbnails/watermelon-icon.jpg">
+
+                            <div class="author-subinfo">
+                                <div class="subinfo-picture-row">
+                                    <img class="subinfo-picture" src="thumbnails/watermelon-icon.jpg">
+                                </div>
+                                <div class="subinfo-stats">
+                                    <p class="subinfo-authorname">WatermeloMotoHead</p>
+                                    <p class="subinfo-subscribers">23.1K subscribers</p>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="div-videodescription">
+                            <p class="video-title">
+                                Harley Davidson 48 Night Ride | Pure Engine Sound Only
+                            </p>
+                            <p class="video-author">
+                                WatermelonMotoHead 
+                            </p>
+                            <p class="video-stats">
+                                3M views &#183; 3 years ago
+                            </p>
+                        </div>
+                    </div> 
+                </div>
+            </a>
+        
+            <a href="https://www.youtube.com/watch?v=gxmyke6XILo&t=1s" target="_blank">
+                <div class="div-videopreview">
+        
+                    <div class="video-thumbnail">
+                        <img class="thumbnail" src="thumbnails/ducati.jpg">
+                        <div class="absolute">
+                            6:42
+                        </div>
+                    </div>
+        
+                    <div class="video-infogrid">
+        
+                        <div class="div-authorprofile">
+                            <img class="author-profilepicture" src="thumbnails/ducati-icon.jpg">
+
+                            <div class="author-subinfo">
+                                <div class="subinfo-picture-row">
+                                    <img class="subinfo-picture" src="thumbnails/ducati-icon.jpg">
+                                </div>
+                                <div class="subinfo-stats">
+                                    <p class="subinfo-authorname">Ducati</p>
+                                    <p class="subinfo-subscribers">948K subscribers</p>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="div-videodescription">
+                            <p class="video-title">
+                                Francesco Bagnaia | New Panigale V4 | First Ride
+                            </p>
+                            <p class="video-author">
+                                Ducati &#10003;
+                            </p>
+                            <p class="video-stats">
+                                601K views &#183; 3 month ago
+                            </p>
+                        </div>
+                    </div> 
+                </div>
+            </a>
+        
+            <a href="https://www.youtube.com/watch?v=2n1k6LVXaF4" target="_blank">
+                <div class="div-videopreview">
+        
+                    <div class="video-thumbnail">
+                        <img class="thumbnail" src="thumbnails/yammie.jpg">
+                        <div class="absolute">
+                            12:50
+                        </div>
+                    </div>
+        
+                    <div class="video-infogrid">
+        
+                        <div class="div-authorprofile">
+                            <img class="author-profilepicture" src="thumbnails/yammie-icon.jpg">
+
+                            <div class="author-subinfo">
+                                <div class="subinfo-picture-row">
+                                    <img class="subinfo-picture" src="thumbnails/yammie-icon.jpg">
+                                </div>
+                                <div class="subinfo-stats">
+                                    <p class="subinfo-authorname">Yammie Noob</p>
+                                    <p class="subinfo-subscribers">1.4M subscribers</p>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="div-videodescription">
+                            <p class="video-title">
+                                The 7 Stages of Motorcycle Obsession
+                            </p>
+                            <p class="video-author">
+                                Yammie Noob &#10003;
+                            </p>
+                            <p class="video-stats">
+                                54K views &#183; 4 days ago
+                            </p>
+                        </div>
+                    </div> 
+                </div>
+            </a>
+        </div>
+    </body>
+</html>
